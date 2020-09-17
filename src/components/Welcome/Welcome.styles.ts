@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import Background from '../../images/background.jpg';
 
 export const Container = styled.div`
@@ -33,6 +33,36 @@ export const Header = styled.h1`
     z-index: 1;
 `;
 
+// Keyframes for typewriter effect
+const TypeWritterFrames = keyframes`
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 9em;
+    }
+`;
+
+// Keyframes for blinking cursor animation
+const BlinkCursorFrames = keyframes`
+    from {
+        border-right-color: 2px solid rgba(255, 255, 255, 0.75);
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+`;
+
 export const Title = styled(Header)`
     font-size: 2.5rem;
+    overflow: hidden;
+    position: relative;
+    width: 10em;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    white-space: nowrap;
+    animation: ${TypeWritterFrames} 4s steps(19) 2s 1 normal both,
+               ${BlinkCursorFrames} 400ms steps(44) infinite normal;
 `;
+
