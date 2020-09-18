@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavContainer, DivContainer, IconContainer, StyledIcon } from './Navbar.styles';
 import { Icon } from '../../ui/Icon/Icon';
+import pdf from '../../PDF/Waqas Daimee Resume.pdf';
 
 export const NavBar: React.FC<any> = props => {
     return(
@@ -8,9 +9,15 @@ export const NavBar: React.FC<any> = props => {
             <DivContainer>
                 <Icon icon="wdLogo" color='green'/>
                 <IconContainer>
-                    <StyledIcon icon="githubLogo" size="40px" color="green" />
-                    <StyledIcon icon="linkedinLogo" size="40px" color="green" />
-                    <StyledIcon icon="pdfLogo" size="40px" color="green" />
+                    <a target="_blank" href="https://www.github.com/wdaimee">
+                        <StyledIcon icon="githubLogo" size="40px" color="green" />
+                    </a>
+                    <a target="_blank" href="https://linkedin.com/in/waqas-daimee">
+                        <StyledIcon icon="linkedinLogo" size="40px" color="green" />
+                    </a>
+                    <a target="_blank" href={pdf}>
+                        <StyledIcon icon="pdfLogo" size="40px" color="green" />
+                    </a>
                 </IconContainer>
             </DivContainer>
         </NavContainer>
