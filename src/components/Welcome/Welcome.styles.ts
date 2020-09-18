@@ -1,5 +1,6 @@
 import styled, { keyframes } from 'styled-components';
 import Background from '../../images/background.jpg';
+import { Icon } from '../../ui/Icon/Icon';
 
 export const Container = styled.div`
     min-height: 100vh;
@@ -40,7 +41,7 @@ const TypeWritterFrames = keyframes`
     }
 
     to {
-        width: 9em;
+        width: 8.9em;
     }
 `;
 
@@ -62,7 +63,25 @@ export const Title = styled(Header)`
     width: 10em;
     border-right: 2px solid rgba(255, 255, 255, 0.75);
     white-space: nowrap;
-    animation: ${TypeWritterFrames} 4s steps(19) 2s 1 normal both,
+    animation: ${TypeWritterFrames} 4s steps(19) 1s 1 normal both,
                ${BlinkCursorFrames} 400ms steps(44) infinite normal;
 `;
 
+const PulseKeyFrames = keyframes`
+    from {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.85);
+    }
+    to {
+        transform: scale(1);
+    }
+`;
+
+export const StyledIcon = styled(Icon)`
+    z-index: 1;
+    position: relative;
+    top: 15.625rem;
+    animation: ${PulseKeyFrames} 2s infinite;
+`;

@@ -1,6 +1,6 @@
 import { DefaultTheme } from 'styled-components';
 
-export type Color = 'darkGrey';
+export type Color = 'background' | 'darkGrey' | 'green' | 'white';
 
 declare module 'styled-components' {
     export interface DefaultTheme {
