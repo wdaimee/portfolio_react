@@ -63,7 +63,7 @@ export const Title = styled(Header)`
     width: 10em;
     border-right: 2px solid rgba(255, 255, 255, 0.75);
     white-space: nowrap;
-    animation: ${TypeWritterFrames} 4s steps(19) 1s 1 normal both,
+    animation: ${TypeWritterFrames} 3s steps(19) 1s 1 normal both,
                ${BlinkCursorFrames} 400ms steps(44) infinite normal;
 `;
 
