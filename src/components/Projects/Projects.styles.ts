@@ -18,6 +18,7 @@ export const Header = styled.div`
 export const Title = styled.h1`
     margin: 0;
     font-size: 2.5rem;
+    text-shadow: 0.125rem 0.125rem #000;
     color: ${props => props.theme.colors.green}
 `;
 
