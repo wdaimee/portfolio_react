@@ -24,7 +24,7 @@ export const IconContainer = styled.div`
 export const StyledIcon = styled(Icon)`
     margin: 0.625rem;
     &:hover {
-        filter: brightness(1.2);
+        filter: brightness(1.5);
         cursor: pointer;
     }
 `;
