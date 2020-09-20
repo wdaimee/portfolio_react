@@ -4,7 +4,9 @@ import { MainContainer,
          InfoContainer, 
          Title, 
          DescriptionContainer,
-         StyledP } from './Card.styles';
+         StyledP,
+         IconContainer } from './Card.styles';
+import { Icon } from '../../ui/Icon/Icon';
 
 interface CardProps {
     title: string,
@@ -12,7 +14,7 @@ interface CardProps {
     backgroundLink: string,
     webSiteLink?: string,
     githubLink?: string,
-    icons?: IconType[]
+    icons: IconType[]
 }
 
 export const Card: React.FC<CardProps> = ({ title, description, backgroundLink, webSiteLink, githubLink, icons }) => {
@@ -24,6 +26,11 @@ export const Card: React.FC<CardProps> = ({ title, description, backgroundLink, 
                 <DescriptionContainer>
                     <StyledP>{description}</StyledP>
                 </DescriptionContainer>
+                <IconContainer>
+                    {icons.map(icon => (
+                        <Icon icon={icon} size="40px" color="white"/>
+                    ))}
+                </IconContainer>
             </InfoContainer>
         </MainContainer>
     </>

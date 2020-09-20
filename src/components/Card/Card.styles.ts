@@ -17,7 +17,7 @@ export const InfoContainer = styled.div`
     box-sizing: border-box;
     padding: 1rem 1rem;
     display: grid;
-    grid-template-rows: 1fr 50% 1fr 1fr;
+    grid-template-rows: 1fr 45% 1fr 1fr;
     opacity: 0;
     background-color: ${props => props.theme.colors.darkGrey};
 
@@ -38,7 +38,11 @@ export const DescriptionContainer = styled.div`
 `;
 
 export const StyledP = styled.p`
-    font-size: 0.9375rem;
+    font-size: 1rem;
     color: white;
+    margin: 0;
 `;
 
+export const IconContainer = styled.div`
+    place-self: center;
+`;
