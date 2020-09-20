@@ -32,9 +32,9 @@ export const Projects: React.FC<any> = props => {
                                    Username: user@gmail.com
                                    
                                    Password: User123'
-                      icons={["reactIcon", "nodeIcon", "expressIcon", "mongoDBIcon", "bootstrapIcon"]}
-                      webSiteLink="aa"
-                      githubLink="aa"
+                      icons={["reactIcon", "nodeIcon", "expressIcon", "mongoDBIcon", "bootstrapIcon", "jsIcon", "herokuIcon"]}
+                      webSiteLink="https://guber-rental.herokuapp.com/"
+                      githubLink="https://github.com/wdaimee/Goalie-Rental-App-React"
                 />
                 <Card title="Dealish Django Fullstack" 
                       backgroundLink='https://i.imgur.com/vJEp2OW.png'

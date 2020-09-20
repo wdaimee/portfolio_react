@@ -14,6 +14,7 @@ import { NodeIcon } from './Icons/node';
 import { ExpressIcon } from './Icons/express';
 import { MongoDBIcon } from './Icons/mongodb';
 import { BootstrapIcon } from './Icons/bootstrap';
+import { JSIcon } from './Icons/javascript';
 
 export const icons = {
     apolloLogo: ApolloIcon,
@@ -23,6 +24,7 @@ export const icons = {
     githubLogo: GithubLogo,
     graphQLIcon: GraphQLIcon,
     herokuIcon: HerokuIcon,
+    jsIcon: JSIcon,
     linkedinLogo: LinkedinLogo,
     mongoDBIcon: MongoDBIcon,
     nestLogo: NestLogo,

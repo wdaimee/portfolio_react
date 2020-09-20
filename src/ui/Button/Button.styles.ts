@@ -15,7 +15,7 @@ export const StyledButton = styled.button<ButtonProps>`
     width: ${({ size }) => size};
     box-sizing: border-box;
     cursor: pointer;
-    margin: 0 1.25rem;
+    margin: 0 0.625rem;
     &:hover {
         background-color: ${props => props.theme.colors.green};
         color: ${props => props.theme.colors.darkGrey};
