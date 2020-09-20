@@ -17,9 +17,11 @@ export const Projects: React.FC<any> = props => {
                                    Users are able to create a todo, edit, or delete a todo. On the Home Page, users can see any up 
                                    coming todos while on the History Page, users can view a list of all of their todos (past, present, and future). 
                                    To check out the app, sign up or login as a guest.'
-                      icons={["reactIcon", "tsLogo", "apolloLogo", "nestLogo"]}
+                      icons={["reactIcon", "tsLogo", "apolloLogo", "nestLogo", "graphQLIcon", "postgreSQLLogo", "herokuIcon"]}
+                      webSiteLink="https://afternoon-wave-77442.herokuapp.com/"
+                      githubLink="https://github.com/wdaimee/Todos-Nestjs"
                 />
-                <Card title='gUber MERN Fullstack' 
+                <Card title='gÜber MERN Fullstack' 
                       backgroundLink='https://i.imgur.com/WSirEb4.png'
                       description='gÜber - The Goalie Rental App is a MERN Fullstack application where users can signup 
                                    to find goalies who can fill their sport games. Users can also sign up to play as a 
@@ -31,10 +33,14 @@ export const Projects: React.FC<any> = props => {
                                    
                                    Password: User123'
                       icons={["reactIcon"]}
+                      webSiteLink="aa"
+                      githubLink="aa"
                 />
                 <Card title="Dealish Django Fullstack" 
                       backgroundLink='https://i.imgur.com/vJEp2OW.png'
                       icons={["reactIcon"]} 
+                      webSiteLink="aa"
+                      githubLink="aa"
                 />
             </ProjectContainer>
         </MainContainer>

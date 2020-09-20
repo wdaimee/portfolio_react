@@ -6,14 +6,16 @@ import { MainContainer,
          DescriptionContainer,
          StyledP,
          IconContainer,
-         StyledIcon } from './Card.styles';
+         StyledIcon,
+         ButtonContainer } from './Card.styles';
+import { Button } from '../../ui/Button/Button';
 
 interface CardProps {
     title: string,
     description?: string,
     backgroundLink: string,
-    webSiteLink?: string,
-    githubLink?: string,
+    webSiteLink: string,
+    githubLink: string,
     icons: IconType[]
 }
 
@@ -31,6 +33,10 @@ export const Card: React.FC<CardProps> = ({ title, description, backgroundLink, 
                         <StyledIcon icon={icon} size="2.5rem" color="white"/>
                     ))}
                 </IconContainer>
+                <ButtonContainer>
+                    <Button link={webSiteLink} size="9.0rem">View the Site</Button>
+                    <Button link={githubLink} size="9.0rem">See the Code</Button>
+                </ButtonContainer>
             </InfoContainer>
         </MainContainer>
     </>
