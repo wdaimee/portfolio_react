@@ -32,7 +32,7 @@ export const Projects: React.FC<any> = props => {
                                    Username: user@gmail.com
                                    
                                    Password: User123'
-                      icons={["reactIcon"]}
+                      icons={["reactIcon", "nodeIcon", "expressIcon", "mongoDBIcon", "bootstrapIcon"]}
                       webSiteLink="aa"
                       githubLink="aa"
                 />

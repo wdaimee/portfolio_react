@@ -10,15 +10,23 @@ import { NestLogo } from './Icons/nest'
 import { GraphQLIcon } from './Icons/graphql';
 import { PostgreSQLIcon } from './Icons/postgresql';
 import { HerokuIcon } from './Icons/heroku';
+import { NodeIcon } from './Icons/node';
+import { ExpressIcon } from './Icons/express';
+import { MongoDBIcon } from './Icons/mongodb';
+import { BootstrapIcon } from './Icons/bootstrap';
 
 export const icons = {
     apolloLogo: ApolloIcon,
     arrowDown: ArrowDown,
+    bootstrapIcon: BootstrapIcon,
+    expressIcon: ExpressIcon,
     githubLogo: GithubLogo,
     graphQLIcon: GraphQLIcon,
     herokuIcon: HerokuIcon,
     linkedinLogo: LinkedinLogo,
+    mongoDBIcon: MongoDBIcon,
     nestLogo: NestLogo,
+    nodeIcon: NodeIcon,
     pdfLogo: PDFLogo,
     postgreSQLLogo: PostgreSQLIcon,
     reactIcon: ReactIcon,

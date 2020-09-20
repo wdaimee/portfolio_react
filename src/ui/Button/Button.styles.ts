@@ -20,4 +20,11 @@ export const StyledButton = styled.button<ButtonProps>`
         background-color: ${props => props.theme.colors.green};
         color: ${props => props.theme.colors.darkGrey};
     }
+    &:active {
+        background-color: ${props => props.theme.colors.white};
+        color: ${props => props.theme.colors.green};
+    }
+    &:focus {
+        outline: none;
+    }
 `;

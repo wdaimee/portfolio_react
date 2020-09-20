@@ -30,7 +30,7 @@ export const Card: React.FC<CardProps> = ({ title, description, backgroundLink, 
                 </DescriptionContainer>
                 <IconContainer>
                     {icons.map(icon => (
-                        <StyledIcon icon={icon} size="2.5rem" color="white"/>
+                        <StyledIcon icon={icon} size="3.0rem" color="white"/>
                     ))}
                 </IconContainer>
                 <ButtonContainer>
