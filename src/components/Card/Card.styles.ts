@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Icon } from '../../ui/Icon/Icon';
 
 export const MainContainer = styled.div<{background: string}>`
     position: relative;
@@ -45,4 +46,8 @@ export const StyledP = styled.p`
 
 export const IconContainer = styled.div`
     place-self: center;
+`;
+
+export const StyledIcon = styled(Icon)`
+    margin: 0 0.3125rem;
 `;
