@@ -7,7 +7,7 @@ export const NavBar: React.FC<any> = props => {
     return(
         <NavContainer>
             <DivContainer>
-                <Icon icon="wdLogo" color='green'/>
+                <Icon icon="wdLogo" size="4.375rem" color="green"/>
                 <IconContainer>
                     {/* eslint-disable-next-line */}
                     <a target="_blank" href="https://www.github.com/wdaimee">

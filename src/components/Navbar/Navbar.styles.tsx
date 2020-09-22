@@ -3,10 +3,15 @@ import { Icon } from '../../ui/Icon/Icon';
 
 export const NavContainer = styled.nav`
     box-sizing: border-box;
+    background-color: rgba(32, 38, 48, 0.8);
     position: fixed;
-    width: 100%;
+    width: 100vw;
     z-index: 1;
     padding: 1rem 1rem;
+
+    @media (min-width: 768px) {
+        background-color: transparent;
+    }
 `;
 
 export const DivContainer = styled.div`

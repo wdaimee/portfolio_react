@@ -24,10 +24,20 @@ export const Title = styled.h1`
 
 export const ProjectContainer = styled.div`
     width: 100%;
-    height: calc(100vh - 6.375rem);
+    height: 225vh;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 1rem;
+    justify-items: center;
+
+    @media (min-width: 768px) {
+        height: calc(100vh - 6.375rem);
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-row-gap: 0;
+    }
 `;
+
 
 

@@ -34,8 +34,8 @@ export const Card: React.FC<CardProps> = ({ title, description, backgroundLink, 
                     ))}
                 </IconContainer>
                 <ButtonContainer>
-                    <Button link={webSiteLink} size="9.0rem">View the Site</Button>
-                    <Button link={githubLink} size="9.0rem">See the Code</Button>
+                    <Button link={webSiteLink} size="9.2rem">View the Site</Button>
+                    <Button link={githubLink} size="9.2rem">See the Code</Button>
                 </ButtonContainer>
             </InfoContainer>
         </MainContainer>

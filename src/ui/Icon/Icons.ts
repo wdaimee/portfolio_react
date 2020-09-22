@@ -15,15 +15,21 @@ import { ExpressIcon } from './Icons/express';
 import { MongoDBIcon } from './Icons/mongodb';
 import { BootstrapIcon } from './Icons/bootstrap';
 import { JSIcon } from './Icons/javascript';
+import { CSSIcon } from './Icons/css';
+import { HTMLIcon } from './Icons/html';
+import { jQueryIcon } from './Icons/jQuery';
 
 export const icons = {
     apolloLogo: ApolloIcon,
     arrowDown: ArrowDown,
     bootstrapIcon: BootstrapIcon,
+    cssIcon: CSSIcon,
     expressIcon: ExpressIcon,
     githubLogo: GithubLogo,
     graphQLIcon: GraphQLIcon,
     herokuIcon: HerokuIcon,
+    htmlIcon: HTMLIcon,
+    jQueryIcon,
     jsIcon: JSIcon,
     linkedinLogo: LinkedinLogo,
     mongoDBIcon: MongoDBIcon,

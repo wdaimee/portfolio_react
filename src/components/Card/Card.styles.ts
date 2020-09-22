@@ -4,9 +4,13 @@ import { Icon } from '../../ui/Icon/Icon';
 export const MainContainer = styled.div<{background: string}>`
     position: relative;
     height: 100%;
-    width: 100%;
+    width: 80%;
     background: url(${props => props.background}) no-repeat center center;
     background-size: cover;
+
+    @media (min-width: 768px) {
+        width: 100%;
+    }
 `;
 
 export const InfoContainer = styled.div`
@@ -21,6 +25,7 @@ export const InfoContainer = styled.div`
     grid-template-rows: 1fr 45% 2fr 1fr;
     opacity: 0;
     background-color: ${props => props.theme.colors.darkGrey};
+    transition: opacity 0.4s ease-in-out;
 
     &:hover {
         opacity: 1;
@@ -35,12 +40,16 @@ export const Title = styled.h3`
 `;
 
 export const DescriptionContainer = styled.div`
+   width: 100%;
+   box-sizing: border-box;
+   padding: 5px;
+   border-radius: 0.25rem;
    overflow-y: scroll;
 `;
 
 export const StyledP = styled.p`
     font-size: 1.4rem;
-    color: white;
+    color: ${props => props.theme.colors.white};
     margin: 0;
 `;
 
