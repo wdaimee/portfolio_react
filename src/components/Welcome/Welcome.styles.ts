@@ -3,7 +3,7 @@ import Background from '../../images/background.jpg';
 import { Icon } from '../../ui/Icon/Icon';
 
 export const Container = styled.div`
-    min-height: 100vh;
+    height: 100vh;
     width: 100vw;
     background: url(${Background}) no-repeat center center fixed;
     background-size: cover;
