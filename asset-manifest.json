@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio_react/static/css/main.21c336c6.chunk.css",
+    "main.js": "/portfolio_react/static/js/main.e836d3f8.chunk.js",
+    "main.js.map": "/portfolio_react/static/js/main.e836d3f8.chunk.js.map",
+    "runtime-main.js": "/portfolio_react/static/js/runtime-main.05e1413c.js",
+    "runtime-main.js.map": "/portfolio_react/static/js/runtime-main.05e1413c.js.map",
+    "static/js/2.6c31131b.chunk.js": "/portfolio_react/static/js/2.6c31131b.chunk.js",
+    "static/js/2.6c31131b.chunk.js.map": "/portfolio_react/static/js/2.6c31131b.chunk.js.map",
+    "index.html": "/portfolio_react/index.html",
+    "precache-manifest.ab9f2927e0c4902ef68c782beae5750a.js": "/portfolio_react/precache-manifest.ab9f2927e0c4902ef68c782beae5750a.js",
+    "service-worker.js": "/portfolio_react/service-worker.js",
+    "static/css/main.21c336c6.chunk.css.map": "/portfolio_react/static/css/main.21c336c6.chunk.css.map",
+    "static/js/2.6c31131b.chunk.js.LICENSE.txt": "/portfolio_react/static/js/2.6c31131b.chunk.js.LICENSE.txt",
+    "static/media/Waqas Daimee Resume.pdf": "/portfolio_react/static/media/Waqas Daimee Resume.82787844.pdf",
+    "static/media/background.jpg": "/portfolio_react/static/media/background.c9cb3fe8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.05e1413c.js",
+    "static/js/2.6c31131b.chunk.js",
+    "static/css/main.21c336c6.chunk.css",
+    "static/js/main.e836d3f8.chunk.js"
+  ]
+}
