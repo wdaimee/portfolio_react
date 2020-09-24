@@ -9,7 +9,7 @@ export const Projects: React.FC<any> = props => {
                 <Title>My Projects</Title>
             </Header>
             <ProjectContainer>
-                <Card title='Todos - Fullstack'
+                <Card key={1} title='Todos - Fullstack'
                       backgroundLink='https://i.imgur.com/NtBLa1R.png'
                       description='Todos is a Fullstack app built with React.js with TypeScript for the Frontend, Nest.js 
                                    with TypeScript and GraphQL for the Backend, and this app uses a PostgreSQL database. 
@@ -21,7 +21,7 @@ export const Projects: React.FC<any> = props => {
                       webSiteLink="https://afternoon-wave-77442.herokuapp.com/"
                       githubLink="https://github.com/wdaimee/Todos-Nestjs"
                 />
-                <Card title='gÜber MERN Fullstack' 
+                <Card key={2} title='gÜber MERN Fullstack' 
                       backgroundLink='https://i.imgur.com/WSirEb4.png'
                       description='gÜber - The Goalie Rental App is a MERN Fullstack application where users can signup 
                                    to find goalies who can fill their sport games. Users can also sign up to play as a 
@@ -36,7 +36,7 @@ export const Projects: React.FC<any> = props => {
                       webSiteLink="https://guber-rental.herokuapp.com/"
                       githubLink="https://github.com/wdaimee/Goalie-Rental-App-React"
                 />
-                <Card title="Dealish Django Fullstack" 
+                <Card key={3} title="Dealish Django Fullstack" 
                       backgroundLink='https://i.imgur.com/vJEp2OW.png'
                       description='Dealish is a Fullstack web app where users can find deals and happy hours in their area. 
                                    Goole Maps API and Geolocation is used to locate the user and display the closest deals to them.
@@ -50,7 +50,7 @@ export const Projects: React.FC<any> = props => {
                       webSiteLink="https://dealish.herokuapp.com/"
                       githubLink="https://github.com/wdaimee/Dealish"
                 />
-                <Card title="The Goalie Rental App - RESTful API"
+                <Card key={4} title="The Goalie Rental App - RESTful API"
                       backgroundLink='https://i.imgur.com/XbKcBEP.png'
                       description='A restful API that will be used as a backend for a React Frontend, this backend API was created with Node.js and Express.js. 
                       The website below can be accessed to view the Documentation for the API. The documentation website was built with HTML, CSS, and Bootstrap 4. 
@@ -60,7 +60,7 @@ export const Projects: React.FC<any> = props => {
                       webSiteLink="https://goalie-rental-app.herokuapp.com/api/docs"
                       githubLink="https://github.com/wdaimee/Goalie-Rental-App-Docs"
                 />
-                <Card title="Websocket Chat"
+                <Card key={5} title="Websocket Chat"
                       backgroundLink="https://i.imgur.com/SLwWQxX.png"
                       description="Websocket chat is a an app that allows two or more clients to communciate in a chat room. Node.js and Express.js were used as the backend 
                       for the project and socket.io was used to implement websockets and communication between multiple clients. The frontend for the project was completed using ejs."
@@ -68,7 +68,7 @@ export const Projects: React.FC<any> = props => {
                       webSiteLink="https://thawing-falls-22320.herokuapp.com/"
                       githubLink="https://github.com/wdaimee/Websocket-chat-app"
                 />
-                <Card title="Old School Cool Air Hockey Game"
+                <Card key={6} title="Old School Cool Air Hockey Game"
                       backgroundLink="https://i.imgur.com/7IVL5ZC.png" 
                       description="A two player air hockey game, best of 7 built with HTML Canvas, CSS, and JavaScript. Players can use keyboard controls to move the paddles and attempt 
                       to score on their opponents. Collision detection was used between the pucks and the paddles to change the direction of the puck when struck with the paddle or walls. 
