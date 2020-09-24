@@ -5,7 +5,7 @@ import { Icon } from '../../ui/Icon/Icon';
 export const Container = styled.div`
     min-height: 100vh;
     width: 100vw;
-    background: url(${Background}) no-repeat center center fixed;
+    background: url(${Background}) no-repeat center center;
     background-size: cover;
     opacity: 0.9;
     display: flex;
