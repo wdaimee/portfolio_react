@@ -8,12 +8,14 @@ export interface ButtonProps extends HTMLAttributes<HTMLButtonElement> {
 
 export const Button: React.FC<ButtonProps> = ({ size, children, onClick, link }) => {
     return (
-        // eslint-disable-next-line
-        <a target="_blank" href={link}>
-            <StyledButton size={size} onClick={onClick}>
-                {children}
-            </StyledButton>
-        </a>    
+        <>
+            {/* eslint-disable-next-line */}
+            <a target="_blank" href={link}>
+                <StyledButton size={size} onClick={onClick}>
+                    {children}
+                </StyledButton>
+            </a>  
+        </>  
     )
 }
 
