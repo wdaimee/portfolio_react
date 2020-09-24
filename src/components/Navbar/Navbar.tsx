@@ -9,15 +9,15 @@ export const NavBar: React.FC<any> = props => {
             <DivContainer>
                 <Icon icon="wdLogo" size="4.375rem" color="green"/>
                 <IconContainer>
-                    {/* eslint-disable-next-line */}
+                    
                     <a target="_blank" href="https://www.github.com/wdaimee">
                         <StyledIcon icon="githubLogo" size="40px" color="green" />
                     </a>
-                    {/* eslint-disable-next-line */}
+                    
                     <a target="_blank" href="https://linkedin.com/in/waqas-daimee">
                         <StyledIcon icon="linkedinLogo" size="40px" color="green" />
                     </a>
-                    {/* eslint-disable-next-line */}
+                    
                     <a target="_blank" href={pdf}>
                         <StyledIcon icon="pdfLogo" size="40px" color="green" />
                     </a>

@@ -94,15 +94,15 @@ export const Contact: React.FC<any> = props => {
             </ContentContainer>
             <Footer>
                 <IconContainer>
-                    {/* eslint-disable-next-line */}
+                    
                     <a target="_blank" href="https://www.github.com/wdaimee">
                         <StyledIcon icon="githubLogo" size="2.5rem" color="green" />
                     </a>
-                    {/* eslint-disable-next-line */}
+                    
                     <a target="_blank" href="https://linkedin.com/in/waqas-daimee">
                         <StyledIcon icon="linkedinLogo" size="2.5rem" color="green" />
                     </a>
-                    {/* eslint-disable-next-line */}
+                   
                     <a target="_blank" href={pdf}>
                         <StyledIcon icon="pdfLogo" size="2.5rem" color="green" />
                     </a>
