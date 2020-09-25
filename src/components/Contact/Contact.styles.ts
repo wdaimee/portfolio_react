@@ -78,6 +78,10 @@ export const ContentContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @media (min-width: 768px) {
+        padding-top: 0;
+    }
 `;
 
 export const SubmitButton = styled.input`
